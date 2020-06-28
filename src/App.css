@@ -1,0 +1,66 @@
+
+.container {
+  background: #d6c9c9;
+}
+
+.navbar-light .navbar-brand {
+  color:#d6c9c9
+}
+
+img {
+  max-height: 80vh;
+}
+
+.justify-content-center {
+  margin: auto !important;
+  margin-top: 150px !important;
+}
+
+.spinner-border {
+  display: block;
+  text-align: center;
+  margin: auto !important;
+}
+
+.header {
+  background: rgba(0,0,0,0.8);
+}
+
+.bd-content-title {
+  display: block;
+  margin: auto !important;
+  text-align: center;
+}
+
+
+.card-title {
+  margin-bottom: .75rem;
+  text-align: center;
+}
+
+h5 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+
+.list-group-item-action {
+  width: 100%;
+  color: rgb(10, 10, 10);
+  text-align: inherit;
+}
+
+h4 {
+  padding-top: .3125rem;
+  padding-bottom: .3125rem;
+  margin-right: 1rem;
+  font-size: 1.25rem;
+  line-height: inherit;
+  white-space: nowrap;
+  float: center;
+}
+
+
+
+
