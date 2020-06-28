@@ -32,6 +32,10 @@ class DetailView extends React.Component {
           <div className="card-body">
             <h4 className="card-title">{place.name}</h4>
             <p className="card-text">{place.official_description}</p>
+            {place.location ? <span className="card-text"><b>Location - </b>{place.location} <br /></span> : null }
+            {place.pincode ? <span className="card-text"><b>Pincode - </b>{place.pincode}<br /></span> : null }
+            {place.latitude ? <span className="card-text"><b>Latitude - </b>{place.latitude}<br /></span> : null }
+            {place.longitude ? <span className="card-text"><b>Longitude - </b>{place.longitude}<br /></span> : null } <br />
             <button type='button' className='btn btn-outline-dark' onClick={() => this.addFavourites(place)}>Add to Favourites</button>
           </div>
           {place.cover ? <img src={place.cover} className="card-img-top" alt={place.location} ></img> : <h2>NO COVER</h2>}
